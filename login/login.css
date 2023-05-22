@@ -1,0 +1,56 @@
+html, body {
+    background-color: #188F82;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    margin: auto;
+  }
+  
+  .rsp-img img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    background-color: #0E5346;
+  }
+  
+  ::placeholder {
+    color: #E1F3F2;
+  }
+  
+  input[type="submit"]{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    background-color: #B5E1DE;
+    color: #0E5346;
+    border : none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:active{
+    box-shadow: inset -.3rem -.1rem 1.4rem;
+  }
+
+.membership{
+  color: #0E5346;
+  text-align: left;
+}
+.membership :hover:active{
+  text-decoration: underline;
+}
