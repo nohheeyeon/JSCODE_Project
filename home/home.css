@@ -1,154 +1,149 @@
 * {
-    /* background-color: #E1F3F2; */
-    box-sizing: border-box;
-    margin: 20px;
-    margin-top: -5px;
-    padding: 20px;
-    font-family: 'EB Garamond', serif;
-    font-family: 'Pangolin', cursive;
-    display: flex;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  
-  body {
-    background-image: url("artiom-vallat-ZYhQXXGxvtQ-unsplash.jpg");
-  }
-  
-  ul {
-    display: flex;
-    flex-direction: row;
-    /* background-color: aquamarine; */
-    /* justify-content: flex-start; 왼쪽 끝으로 정렬합니다. */
-    width: 80%;
-    height: 50px;
-    position: fixed;
-    justify-content: space-evenly;
-  }
-  
-  ul a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-  }
-  
-  ul img {
-    width: 100px;
-    height: 100px;
-  }
+  /* background-color: #E1F3F2; */
+  box-sizing: border-box;
+  margin: 20px;
+  margin-top: -5px;
+  padding: 20px;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Pangolin', cursive;
+  /* display: flex;
+  flex-direction: row; */
+}
 
-  ul li{
-    margin-left: auto;
-  }
-  
-  li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 30px;
-  }
+body {
+  background-image: url("artiom-vallat-ZYhQXXGxvtQ-unsplash.jpg");
+}
 
-  .main-page{
-    text-align: center;
-  }
-  
-  .main-page p{
-    font-size: 100px;
-  }
+ul {
+  display: flex;
+  flex-direction: row;
+  /* background-color: aquamarine; */
+  /* justify-content: flex-start; 왼쪽 끝으로 정렬합니다. */
+  width: 80%;
+  height: 50px;
+  position: fixed;
+  justify-content: space-evenly;
+}
 
-  button{
-    font-size: 50px;
-    border-radius: 15px;
-    background-color: black;
-  }
+ul a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
 
-  .service h1{
-    font-size: 60px;
-    text-align: center;
-  }
+ul img {
+  width: 100px;
+  height: 100px;
+}
 
-  .service p{
-    font-size: 40px;
-    color: #9b9b9b;
-  }
+ul li{
+  margin-left: auto;
+}
 
-  .jb-division-line {
-    border-top: 1px solid #444444;
-    margin: 30px 0px;
-  }
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+}
 
-  .process {
-    font-size: 60px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
- 
-  .process img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: grid;
-  }
+.main-page{
+  text-align: center;
+}
 
-  .process p{
-    font-size: 30px;
-    color: #9b9b9b;
-  }
+.main-page p{
+  font-size: 100px;
+}
 
-  .product {
-    display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; */
-    grid-template-areas: 
-      'a a c c'
-      'a a b b'
-      'd d b b'
-      'd d e e'
-      'f f e e'
-      'f f g g';
-  }
-  
-  .product .img1 {
-    grid-area: a;
-  }
-  
-  .product .img2 {
-    grid-area: b;
-  }
-  
-  .product .img3 {
-    grid-area: d;
-  }
-  
-  .product .img4 {
-    grid-area: e;
-  }
-  
-  .product img {
-    width: 600px;
-    height: 600px;
-  }
+button{
+  font-size: 50px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.service h1{
+  font-size: 60px;
+  text-align: center;
+}
+
+.service p{
+  font-size: 40px;
+  color: #9b9b9b;
+}
+
+.jb-division-line {
+  border-top: 1px solid #444444;
+  margin: 30px 0px;
+}
+
+.process {
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.process img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: grid;
+}
+
+.process p{
+  font-size: 30px;
+  color: #9b9b9b;
+}
+
+.product {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+  grid-template-areas: 
+    'a a c c'
+    'a a b b'
+    'd d b b'
+    'd d e e'
+    'f f e e'
+    'f f g g';
+}
+
+.product .img1 {
+  grid-area: a;
+}
+
+.product .img2 {
+  grid-area: b;
+}
+
+.product .img3 {
+  grid-area: d;
+}
+
+.product .img4 {
+  grid-area: e;
+}
+
+.product img {
+  width: 600px;
+  height: 600px;
+}
 
 h1{
-    font-size: 60px;
-    text-align: center;
-  }
+  font-size: 60px;
+  text-align: center;
+}
 
-  .social {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .social img {
-    width: 100px;
-    height: 100px;
-    margin: -40px;
-  }
-  
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social img {
+  width: 100px;
+  height: 100px;
+  margin: -40px;
+}
